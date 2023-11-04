@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/f4-mt-shoppingpage/static/css/main.6bdc8b52.css",
+    "main.js": "/f4-mt-shoppingpage/static/js/main.ca0a8b75.js",
+    "index.html": "/f4-mt-shoppingpage/index.html",
+    "main.6bdc8b52.css.map": "/f4-mt-shoppingpage/static/css/main.6bdc8b52.css.map",
+    "main.ca0a8b75.js.map": "/f4-mt-shoppingpage/static/js/main.ca0a8b75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bdc8b52.css",
+    "static/js/main.ca0a8b75.js"
+  ]
+}
