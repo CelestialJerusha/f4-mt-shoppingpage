@@ -21,20 +21,23 @@ const Home = () => {
   }
   // console.log(data)
   
-    
+    const add = () =>{
+      console.log(1);
+    }
+      
   
     return(
       <div className='container'>
-        {Array.from(data).map((dataObj,index) => {
+        {Array.from(data).map((dataObj) => {
           return (
-              <div className='sub-container'>
+              <div className='sub-container' key={dataObj.id}>
                 <img src={dataObj.thumbnail} alt="image1" />
                 <h3>{dataObj.title}</h3>
                 <span>Rs.{dataObj.price}</span>
                 <h5>{dataObj.brand}</h5>
                 <p>{dataObj.description}</p>
                 <p>Rating:{dataObj.rating}</p> 
-                <button>Add To Cart</button>
+                <button onClick={add}>Add To Cart</button>
               </div>
           );
         })}
